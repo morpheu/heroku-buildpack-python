@@ -1,4 +1,4 @@
-ARG STACK_VERSION="22"
+ARG STACK_VERSION="20"
 FROM --platform=linux/amd64 heroku/heroku:${STACK_VERSION}-build
 
 ARG STACK_VERSION
